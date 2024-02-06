@@ -1,0 +1,233 @@
+header img {
+    width: 34px;
+    height: 34px;
+}
+
+.container {
+    max-width: 90%;
+    min-width: 270px;
+    margin: 0px auto;
+    // border: 1px solid red;
+    
+}
+.nav__icons img{
+    // justify-content: end;
+    // align-items: end;
+    
+    display: flex;
+    // gap: 50px;
+    
+    // align-items:center;
+// justify-content: center;
+// padding-top: -90px;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+}
+// 2ta elementni ob tashasa hammasi yaxshii bobketadi.. 
+// .at {
+//     position: absolute;
+// }
+// h3{
+    // position: relative;
+    // top: 15px;
+    // right: 12px;
+// }
+.fpage__contant h1{
+    // text-align: center;
+    font-size: 39px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    min-width: 400px;
+
+}
+span{
+    color:lightseagreen;
+}
+ p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    color:rgb(64, 61, 61);
+   max-width:499px;
+   min-width:300px;
+   text-align: center;
+
+}
+.fpage__contant button{
+    background-color:lightseagreen;
+    max-width: 250px;
+    width: 150px;
+    height: 40px;
+    // align-items: center;
+    // justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+    // margin-left: 27%;
+    border: none;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border-radius: 9px;margin-top: 30px;
+    transition: all 0.5s;
+
+}
+body{
+    background-color: white;
+
+}
+@media screen and (max-width:992px) {
+   body{ background-color: lightgreen;
+   }
+   .container {
+    display: inline-block;
+    
+   }
+}
+@media screen and (max-width:600px) {
+  body{  background-color: lightblue;
+    
+  }
+  button  {
+    margin-left:200px ;
+    // margin-left: 200px;
+  }
+  .s8{
+    display: inline-block;
+  }
+  h1 {
+    text-align: center;
+  }
+  .container {
+    margin: 0px auto;
+  }
+  .fpage {
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    justify-content: start;
+.fimg {
+    margin-top: 560px;
+    margin-left:-399px ;
+
+}
+.oxr{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    flex-direction: column;
+
+}
+// .simg {
+//     margin-top: 756px;
+//     margin-left:-799px;
+// }
+.s8{
+    width: 49%;
+    display:block;
+    text-align: center;
+    justify-content: start;
+    flex-direction: column;
+}
+.s8__contant {
+    display: inline-block;
+}
+.s9 img {
+    display: flex;
+   top: 20px;
+   margin-left: -200px;
+   flex-direction: column;
+    
+}
+.fpage__contant {
+    display: inline-block;
+}
+  }
+  main {
+display: inline-block;
+// width: 49%;
+}
+.fpage__contant button{
+    display: inline-block;
+// margin-left:10px;
+
+    // width: 49%;
+}
+.ot {
+    display: inline-block;
+}
+
+}
+// .fimg {
+//     position: absolute;
+//   top: 75px;
+//   left: 630px;
+// }
+a {
+    text-decoration: none;
+    color:grey;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    // margin-top: -10px;
+
+
+}
+button:hover{
+    background-color: green;
+    box-shadow: 0px 1px 1px 1px grey;
+    scale: 1.1;
+}
+.nav__icons {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.text {
+    display: flex;
+    gap: 20px;
+}
+.fpage {
+    display: flex;
+}
+// .fimg {
+//     // margin-left:-399px ;
+//     // top: 200px;
+//     // right: 200px;
+   
+// }
+.s8 {
+    display: flex;
+     background-image: url(./images/kere.png);
+    background-repeat: no-repeat;
+    background-color: rgb(185, 183, 183);
+    
+}
+.s8__contant {
+    margin-top: 150px;
+}
+.s8__contant h1 {
+    margin-left: 20px;
+}
+.oxr {
+    display: flex;
+    gap: 50px;
+}
+.ot  {
+    width: 32%;
+}
+.ot img {
+    width: 300px;
+
+}
+.ot h3{
+    text-align: center;
+}
+h1 {
+    font-size: 39px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    min-width: 400px;
+    color:lightseagreen;
+    text-align: center;
+}
